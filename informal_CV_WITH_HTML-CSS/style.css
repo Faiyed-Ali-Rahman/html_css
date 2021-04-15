@@ -1,0 +1,242 @@
+*{
+	margin: 0 ;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+table{
+	margin-left: 20%;
+}
+a{
+	color:#A4153C;
+	margin-left: 5%;
+}
+a:hover{
+	color:#B5BAF0;
+}
+.full{
+
+	width: 100%;
+	background: black;
+	height: 3000px;
+}
+.header{
+	
+	height: 320px;
+
+}
+.header span{
+	width: 100%;
+	background: #7992ED;
+	display: block;
+	font-size: 30px;
+	background: #7992ED;
+	color:#FBFF48;
+	background-image: linear-gradient(rgba(0,0,0,0.3)
+		,rgba(0,0,0,0.8));
+	 
+
+}
+#name{
+	
+	padding-left: 2%;	
+}
+.head-content{
+	margin-left: 25%;
+	background: #343555;
+	width:30%;
+	height: 255px;
+	display: block;
+	color: #92DB7C;
+	background-image: linear-gradient(rgba(0,0,0,0.3)
+		,rgba(0,0,0,0.8));
+		margin-bottom: 10px;
+		padding-bottom: 20px;	
+}
+
+.head-content h1{
+	margin-left: 20px;
+	padding-top: 20px;
+
+}
+.header img{
+	margin-top: 50px;
+	padding-left: 65% ;
+	width:10%;
+	height:160px;
+	position: absolute;
+}
+.gap{
+	height:10px;
+	background: black;
+}
+.main1{
+		
+	width:100%;
+	margin-top: 10px;
+	background: #363253;
+	height:110px;
+	background-image: linear-gradient(rgba(0,0,0,0.3)
+		,rgba(0,0,0,0.6));	
+}
+#objective{
+	padding-left: 2%;	
+	display: block;
+	font-size: 25px;
+	background: #7992ED;
+	color:#FBFF48;
+	background-image: linear-gradient(rgba(0,0,0,0.3)
+		,rgba(0,0,0,0.8));
+	
+}
+.main1 p{
+	padding-left: 2%;	
+	padding-top: 10px;
+	color:#89E2F3;
+	font-size: 20px;
+
+}
+.main2{
+	width:100%;
+	margin-top: 10px;
+	background: #363253;
+	height:135px;
+	background-image: linear-gradient(rgba(0,0,0,0.3)
+		,rgba(0,0,0,0.6));	
+}
+#career{
+	padding-left: 2%;	
+	display: block;
+	font-size: 25px;
+	background: #7992ED;
+	color:#FBFF48;
+	background-image: linear-gradient(rgba(0,0,0,0.3)
+		,rgba(0,0,0,0.8));
+}
+.main2 p{
+	padding-left: 2%;	
+	padding-top: 10px;
+	color:#89E2F3;
+	font-size: 20px;
+}
+.main3{
+	width:100%;
+	margin-top: 10px;
+	background: #363253;
+	height:280px;
+	background-image: linear-gradient(rgba(0,0,0,0.3)
+		,rgba(0,0,0,0.7));	
+}
+#qualification{
+	padding-left: 2%;	
+	display: block;
+	font-size: 25px;
+	background: #7992ED;
+	color:#FBFF48;
+	background-image: linear-gradient(rgba(0,0,0,0.3)
+		,rgba(0,0,0,0.8));
+}
+.main3 table{
+	margin-top:15px;
+	margin-left: 2%;
+	width:70%;
+	position: absolute;
+	background-color: #4B1544;
+	color:#92DB7C;
+	border-collapse: collapse;
+	height: 200px;
+	background-image: linear-gradient(rgba(0,0,0,0.1)
+	,rgba(0,0,0,0.7));
+	border-color:2px solid #92DB7C; 
+}
+.main4{
+	width:100%;
+	margin-top: 10px;
+	background: #363253;
+	height:480px;
+	background-image: linear-gradient(rgba(0,0,0,0.2)
+	,rgba(0,0,0,0.9));	
+}
+#project{
+	padding-left: 2%;	
+	display: block;
+	font-size: 25px;
+	background: #7992ED;
+	color:#FBFF48;
+	background-image: linear-gradient(rgba(0,0,0,0.3)
+	,rgba(0,0,0,0.8));
+}
+h2{
+	padding-left: 2%;	
+	padding-top: 10px;
+	color:#89E2F3;
+	font-size: 20px;
+}
+.main5{
+	width:100%;
+	margin-top: 10px;
+	background: #363253;
+	height:1250px;
+	background-image: linear-gradient(rgba(0,0,0,0.2)
+	,rgba(0,0,0,0.9));	
+}
+#skills{
+	padding-left: 2%;	
+	display: block;
+	font-size: 25px;
+	background: #7992ED;
+	color:#FBFF48;
+	background-image: linear-gradient(rgba(0,0,0,0.3)
+	,rgba(0,0,0,0.8));
+}
+u{
+	color:#92DB7C;
+}
+.main5 table{
+	padding-top: 10px;
+	width:50%;
+	font-size: 20px;
+	color:#92DB7C;
+	height: 250px;
+	background-image: linear-gradient(rgba(0,0,0,0.4)
+	,rgba(0,0,0,0.7));
+	text-align: center;
+	padding-bottom: 10px;
+}
+.main6{
+	width:100%;
+	margin-top: 10px;
+	background: #363253;
+	height:850px;
+	background-image: linear-gradient(rgba(0,0,0,0.2)
+	,rgba(0,0,0,0.9));	
+}
+#application_information{
+	padding-left: 2%;	
+	display: block;
+	font-size: 25px;
+	background: #7992ED;
+	color:#FBFF48;
+	background-image: linear-gradient(rgba(0,0,0,0.3)
+	,rgba(0,0,0,0.8));
+}
+.main6 table{
+	padding-top: 10px;
+	width:50%;
+	font-size: 20px;
+	color:#92DB7C;
+	height: 350px;
+	background-image: linear-gradient(rgba(0,0,0,0.4)
+	,rgba(0,0,0,0.9));
+	text-align: center;
+	padding-bottom: 10px;
+	background-color: #4B1544;
+}
+#personal_information{
+	padding-left: 2%;	
+	display: block;
+	font-size: 25px;
+	background: #7992ED;
+	color:#FBFF48;
+	background-image: linear-gradient(rgba(0,0,0,0.3)
+	,rgba(0,0,0,0.8));
+}

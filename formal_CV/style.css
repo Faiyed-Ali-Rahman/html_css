@@ -1,0 +1,189 @@
+*{
+	
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+.full{
+	width:60%;
+	margin:center ; 
+	background:#ddd;
+	height: 2000px;
+	padding: 20px;
+}
+.full img{
+	position: absolute;
+	margin-left:40%;
+}
+#name{
+	color:blue;
+}
+.main1{
+		
+	width:100%;
+	margin-top: 40px;
+	background: gray;
+	height:125px;
+	background-image: linear-gradient(rgba(0,0,0,0.3)
+		,rgba(0,0,0,0.6));	
+}
+#objective{
+	
+	display: block;
+	font-size: 25px;
+	background: #7992ED;
+	color:#FBFF48;
+	background-image: linear-gradient(rgba(0,0,0,0.3)
+		,rgba(0,0,0,0.8));
+	
+}
+.main1 p{
+	
+	padding-top: 5px;
+	color:white;
+	font-size: 20px;
+
+}
+
+.main2{
+	width:100%;
+	margin-top: 10px;
+	background: gray;
+	height:175px;
+	background-image: linear-gradient(rgba(0,0,0,0.3)
+		,rgba(0,0,0,0.6));	
+}
+#career{
+	display: block;
+	font-size: 25px;
+	background: #7992ED;
+	color:#FBFF48;
+	background-image: linear-gradient(rgba(0,0,0,0.3)
+		,rgba(0,0,0,0.8));
+}
+.main2 p{	
+	padding-top: 10px;
+	color:white;
+	font-size: 20px;
+}
+.main3{
+	width:100%;
+	margin-top: 10px;
+	background: gray;
+	height:230px;
+	background-image: linear-gradient(rgba(0,0,0,0.3)
+		,rgba(0,0,0,0.7));	
+}
+#qualification{
+	
+	display: block;
+	font-size: 25px;
+	background: #7992ED;
+	color:#FBFF48;
+	background-image: linear-gradient(rgba(0,0,0,0.3)
+		,rgba(0,0,0,0.8));
+}
+.main3 table{
+	
+	
+	width:60%;
+	position: absolute;
+	background-color: gray;
+	color:white;
+	text-align: left;
+	border-collapse: collapse;
+	height: 200px;
+	background-image: linear-gradient(rgba(0,0,0,0.1)
+	,rgba(0,0,0,0.7));
+	
+}
+
+.main4{
+
+	width:100%;
+	margin-top: 10px;
+	background: gray;
+	height:250px;
+	background-image: linear-gradient(rgba(0,0,0,0.2)
+	,rgba(0,0,0,0.9));	
+}
+#project{
+	
+	display: block;
+	font-size: 25px;
+	background: #7992ED;
+	color:#FBFF48;
+	background-image: linear-gradient(rgba(0,0,0,0.3)
+	,rgba(0,0,0,0.8));
+}
+#project_p{
+	padding-top: 20px;
+	padding-left: 2%;
+	color:white;
+}
+.main5{
+	width:100%;
+	margin-top: 10px;
+	background: gray;
+	height:150px;
+	background-image: linear-gradient(rgba(0,0,0,0.2)
+	,rgba(0,0,0,0.9));
+	color:white;	
+}
+#skills{
+	display: block;
+	font-size: 25px;
+	background: #7992ED;
+	color:#FBFF48;
+	background-image: linear-gradient(rgba(0,0,0,0.3)
+	,rgba(0,0,0,0.8));
+}
+.main5 p{
+
+	padding-top: 10px;
+}
+u{
+	color:#92DB7C;
+}
+.main6{
+	width:100%;
+	margin-top: 10px;
+	background:gray;
+	height:230px;
+	background-image: linear-gradient(rgba(0,0,0,0.2)
+	,rgba(0,0,0,0.9));	
+}
+#application_information{
+
+	display: block;
+	font-size: 25px;
+	background: #7992ED;
+	color:#FBFF48;
+	background-image: linear-gradient(rgba(0,0,0,0.3)
+	,rgba(0,0,0,0.8));
+}
+.main6 p{
+	padding-top: 10px;
+	color:white;
+}
+.main7{
+	width:100%;
+	margin-top: 10px;
+	background:gray;
+	height:430px;
+	background-image: linear-gradient(rgba(0,0,0,0.2)
+	,rgba(0,0,0,0.9));	
+
+}
+#personal_information{
+
+	display: block;
+	font-size: 25px;
+	background: #7992ED;
+	color:#FBFF48;
+	background-image: linear-gradient(rgba(0,0,0,0.3)
+	,rgba(0,0,0,0.8));
+}
+.main7 p{
+	padding-top: 10px;
+	color:white;
+}
