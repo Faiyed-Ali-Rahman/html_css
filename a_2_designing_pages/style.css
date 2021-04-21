@@ -1,0 +1,480 @@
+*{
+	font-family: 'Roboto', sans-serif;
+
+}
+.home-main{
+	
+	width:1870px;height: 100vh;
+	background: linear-gradient(to bottom left,#8f2e94ab,#428e98,#2d4c04,#2196f3);
+
+}
+
+#menu{
+	list-style-type: none;
+	color:white;
+	width:960px;
+	min-height:38px;
+	padding: 0;
+	border-bottom: 	2px solid orange;
+	background: #7992ED;
+	background-image: linear-gradient(rgba(0,0,0,0.3)
+		,rgba(0,0,0,0.8));
+	margin: 0 auto;
+
+
+}
+#slider{
+	display: block;
+	margin-top:100px;
+	width: 60%;
+	margin:0 auto;
+	margin-top:150px;
+}
+#menu li{
+	position: relative;
+	float:left;
+	border-left:2px solid #83C0EF;
+}
+#menu li:first-child{
+	border-left:none;
+}
+#menu li a{
+	text-decoration: none;
+	color: #F9FF63;
+	background: #7992ED;
+	font-size: 15px;
+	padding: 10px 20px;
+	display: block;
+	cursor: pointer;
+	transition: 1.5s all ease;
+	background-image: linear-gradient(rgba(0,0,0,0.3)
+		,rgba(0,0,0,0.8));
+
+}
+#menu li a:hover{
+	background: orange;
+	color:green;
+	font-weight: bold;
+	font-size: 25px;
+	
+}
+#resources{
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	left: -99999px;
+	transition: 0;
+	width: 200px;
+}
+#resources li{
+	
+	float:none;
+	border-left:none;
+	border-top:2px solid #83C0EF;
+	border-bottom:2px solid #83C0EF ;
+	
+}
+#menu li:hover #resources{
+	left:0px;
+	margin-bottom: 100px;
+}
+.main-login{
+	position: relative;
+	width:100%;height: 100vh;
+	background: linear-gradient(to bottom right,black,#3e3e7b,#195419,black);
+}
+.main-reset{
+	position: relative;
+	width:100%;height: 100vh;
+	background: linear-gradient(to top right,#960000,#252592c4,#41b341,#fb000045);
+}
+.sign-up-main{
+	background: linear-gradient(to bottom right,#001013,#00bcd4,#012125c9,#03a9f4);
+	width:1850px;
+	height:100vh;
+	position: absolute;
+}
+.regi-form-label{
+	color:#c9dc12;
+	font-weight: bold;
+
+}
+.radio-check{
+	color:blue;
+	font-weight: bold;
+}
+.legend-label{
+	color:#00ff00;
+	font-weight: bold;
+}
+#welcome-regi{
+	position: relative;
+	top: 20px;
+	color:#c9dc12;
+	font-weight: bold;
+	font-size: 72px;
+}
+.regi-form{
+	margin-left:50px;
+	padding-left: 20px;
+	position: relative;
+	top:50px;
+	width:300px;
+	height: 450px;
+	background: linear-gradient(rgba(185,246,193,0.1),rgba(185,246,193,.7));
+}
+.login-sec{
+	position: absolute;
+	width:20%;
+	height: 50%;
+	background: linear-gradient(rgba(185,246,193,0.1),rgba(185,246,193,.7));
+	
+	left:40%;
+	top:25vh;
+	border-radius: 10px;
+
+}
+.reset-sec{
+	position: absolute;
+	width:20%;
+	height: 35%;
+	background: linear-gradient(#f44336,rgb(166 232 5 / 48%));
+	
+	left:40%;
+	top:40vh;
+	border-radius: 10px;
+}
+
+.login-sec img{
+	position: relative;
+	display: block;
+	top:5px;
+	left:50px;
+	padding-left: 20%;
+	width:100px;
+	height:100px;
+	border-radius: 5%;
+	border-color: 2px #72828B;
+
+}
+.name{
+	position: relative;
+	top:20px;
+	padding: 10px;
+	color:#332C5F;
+	font-weight: bold;
+	display: block;
+	font-size: 20px;
+}
+.new-password{
+	position: relative;
+	top:20px;
+	padding: 10px;
+	color:#332C5F;
+	font-weight: bold;
+	display: block;
+	font-size: 20px;
+}
+.password{
+	position: relative;
+
+	padding-left: 10px;
+	color:#332C5F;
+	
+	font-weight: bold;
+	font-size: 20px;
+}
+.confirm-password{
+	position: relative;
+
+	padding-left: 10px;
+	color:#332C5F;
+	
+	font-weight: bold;
+	font-size: 20px;
+}
+#input-name{
+	position: relative;
+	top:5px;
+	border:none;
+	left:10px;
+	border-radius: 1%;
+	width: 50%;
+	display: block;
+	height: 20px; 
+}
+#input-new-password{
+	position: relative;
+	top:5px;
+	border:none;
+	left:10px;
+	border-radius: 1%;
+	width: 50%;
+	display: block;
+	height: 20px; 
+}
+#input-pass{
+	position: relative;
+    display: block;
+    top:10px;
+	border:none;
+	left:10px;
+	border-radius: 1%;
+	width: 50%;
+	height: 20px; 
+}
+#input-confirm-password{
+	position: relative;
+    display: block;
+    top:10px;
+	border:none;
+	left:10px;
+	border-radius: 1%;
+	width: 50%;
+	height: 20px; 
+}
+.log-signup{
+	display:block;
+	top:70px;
+	left:10px;
+	position: relative;
+	color: #3C475D;
+	font-weight: bold;
+	}
+#sign-up{
+	cursor:pointer;
+}
+#sign-up:hover{
+	color:#67D8EF;
+}
+#reset{
+	cursor: pointer;
+}
+#reset:hover{
+	color:#67D8EF;
+}
+.log-forgot-pass{
+	display: block;
+	top:40px;
+	left:10px;
+	position: relative;
+	color: #3C475D;
+	font-weight: bold;
+	}
+#sign-in{
+	cursor:pointer;
+	transition: 0.5s;
+}
+#sign-in:hover{
+	color:#C7ADCD;
+	font-weight: bold;
+}
+.btn-submit{
+	display: inline;
+	border:none;
+	width:80px;
+	font-weight: bold;
+	height: 20px;
+	position: relative;
+	top:30px;
+	left:10px;
+	transition: 1.5s;
+	cursor: pointer;
+	background: #7992ED;
+	background-image: linear-gradient(rgba(0,0,0,0.3)
+		,rgba(0,0,0,0.8));
+	color:orange;
+}
+.btn-submit:hover{
+	background: #374A48;
+	color:white;
+	height: 30px;
+}
+.btn-back a{
+	text-decoration: none;
+	color: orange;
+}
+.btn-back{
+	display: inline;
+	border:none;
+	width:80px;
+	font-weight: bold;
+	height: 20px;
+	position: relative;
+	top:30px;
+	left:10px;
+	transition: 1.5s;
+	cursor: pointer;
+	background: #7992ED;
+	background-image: linear-gradient(rgba(0,0,0,0.3)
+		,rgba(0,0,0,0.8));
+	color:orange;
+}
+.btn-back:hover{
+	background: #374A48;
+	color:white;
+	height: 30px;
+}
+.regi-input{
+	border-radius: 1%;
+	border:none;
+	background: #A3DBBF;
+	color:blue;
+	font-weight: bold;
+}
+.regi-input:hover{
+	border-color: 2px solid red;
+	background: #E26805;
+}
+
+#first{
+	position: relative;
+	font-size: 72px;
+	font-weight: bold;
+	top:100px;
+	left: 30%;
+	color: #4a0000;
+	animation-name: welcome-login-first;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+#second{
+	top: 100px;
+	left:30%;
+	position: relative;
+	font-size: 72px;
+	font-weight:bold;
+	color: #4a0000;
+	animation-name: welcome-login-second;
+	animation-duration: 5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+
+
+}
+#reset1{
+	position: relative;
+	font-size: 72px;
+	font-weight: bold;
+	top:100px;
+	left: 8%;
+	color: #4a0000;
+	animation-name: reset-1;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+#reset2{
+	top: 100px;
+	left:8%;
+	position: relative;
+	font-size: 72px;
+	font-weight:bold;
+	color: #4a0000;
+	animation-name: reset-2;
+	animation-duration: 5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+.plane{
+	position:relative;
+	height:100px;
+	width:100px;
+	left:30%;
+	top:20%;
+	animation-name: plane;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-delay: 2s;
+}
+.fire{
+	position:relative;
+	height:100px;
+	width:100px;
+	top:-9999%;
+	animation-name: fire;
+	left:83%;
+	animation-iteration-count: 20;
+	animation-duration: 0.05s;
+	animation-delay: 8.5s;
+
+}
+.smoke{
+	position: relative;
+	height:5px;
+	width:5px;
+	left:80%;top:-20%;
+	animation-name: smoke;
+	animation-duration: 6s;
+	animation-iteration-count: 1;
+	animation-delay: 11.7s;
+}
+@keyframes smoke{
+	0%{left:80%;top:-20%;}
+	20%{height: 100px;width: 50px;}
+	40%{height: 200px;width: 50px;}
+	60%{height: 200px;width: 100px;}
+	80%{left:80%;top:-30%;height: 200px;width: 100px;}
+	90%{left:80%;top:-40%;height: 100px;width: 50px;}
+	100%{left:80%;top:-50%;height: 50px;width: 20px;}
+}
+@keyframes plane{
+	0%{left:30%;top:20%;}
+	60%{left:90%;top:-40%;}
+	to{left:90%;top:30%;}
+
+}
+@keyframes fire{
+	0%{top:-99%;width:0px;height:0px;}
+	50%{top:-40%;width:0px;height:0px;}
+	100%{top:-40%;width:150px;height:150px;}
+}
+
+@keyframes welcome-login-first{
+	from{left:0%;color:#171796;}
+	to{ left:30%;color: #4a0000; }
+}
+@keyframes welcome-login-second{
+	from{left:58%;color:#171796;}
+	to{ left:30%;color: #4a0000; }
+}
+@keyframes reset-1{
+	0%{left:8%;top:80%;color:#4a0000;}
+	25%{left:-15%;top:80%;color:pink;}
+	75%{left:-15%;top:100px;color:red;}
+	100%{left:8%;top:100px;color:#4a0000;}
+}
+@keyframes reset-2{
+	0%{left:8%;top:80%;color: #4a0000;}
+	25%{left:30%;top:80%;color:orange;}
+	75%{left:30%;top:100px;color:green;}
+	100%{left:8%;top:100px;color: #4a0000;}
+}
+#ballon2{
+	width: 150px;
+	height: 150px;
+	position: relative;
+	left:70%;
+	top:70vh;
+	animation-name: ballon-2;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+}
+#ballon1{
+	width: 150px;
+	height: 150px;
+	position: relative;
+	left:20px;
+	top:70vh;
+	animation-name: ballon-2;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes ballon-2{
+	from{top:85vh;}
+	to{top:-20vh;}
+}
