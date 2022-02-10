@@ -1,0 +1,463 @@
+/*============
+  Google Fonts
+  ============*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;350;400;450;500;550;600;650;700&display=swap');
+
+
+/*============
+  Global Css
+  ============*/
+*{
+	margin:0;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+.container{
+	width:1200px;
+	margin:0 auto;
+
+}
+
+.row{
+	width:100%;
+	float:left;
+
+}
+.col-1{
+	width:8.33%;
+	float:left;
+
+}
+.col-2{
+	width: 16.66%;
+	float:left;
+}
+.col-3{
+	width: 25%;
+	float:left;
+}
+.col-4{
+	width: 33.3333%;
+	float:left;	
+}
+.col-5{
+	width: 41.666%;
+	float:left;
+}
+.col-6{
+	width: 50%;
+	float:left;
+
+}
+.col-7{
+	width: 58.3333%;
+	float:left;
+
+}
+.col-8{
+	width: 66.6666%;
+	float:left;
+}
+.col-9{
+	width: 75%;
+	float:left;
+}
+.col-10{
+	width: 83.333%;
+	float:left;
+}
+.col-11{
+	width: 91.6666%;
+	float:left;
+}
+.col-12{
+	width:100%;
+	float:left;
+
+}
+
+.mr-50{
+	margin-right: 50px;
+}
+
+/*==================
+  header section css
+  ==================*/
+header{
+	width:100%;
+	float:left;
+	background: #f6f9f9;
+	padding: 20px 0;
+}
+
+/*==================
+  banner section css
+  ==================*/
+.banner{
+	width:100%;
+	float:left;
+	background: url(../img/banner.png) no-repeat;
+	background-size: cover;
+	background-position: center top;
+	padding-top: 250px;
+	padding-bottom: 100px;
+}
+
+.banner h1{
+	font-size: 82px;
+	color: white;
+	letter-spacing: 10px;
+	text-align: center;
+}
+
+.title-border{
+	width:40%;
+	height: 2px;
+	background: #15a4fa;
+	margin:15px auto 20px;	
+}
+
+.banner p{
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	margin-bottom: 40px;
+}
+
+.btn-banner{
+	width: 185px;
+	font-size: 18px;
+	background: transparent;
+	display: block;
+	text-align: center;
+	color: white;
+	border:2px solid #15a4fa;
+	margin: 0 auto;
+	display: block;
+	padding: 12px 0;
+}
+
+.btn-banner:hover{
+	background: #15a4fa;
+}
+
+.banner i{
+	color: white;
+	font-size: 30px;
+	margin: 300px 0 0;
+	display: block;
+	text-align: center;
+}
+
+/*==================
+  information section css
+  ==================*/
+
+.information{
+	background: #f6f9f9;
+	width: 94.75%;
+	float:left;
+	padding: 50px;
+}
+
+.information h2{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 28px;
+	margin-bottom: 25px;
+	font-size: 36px;
+	color: #2d3950;
+}
+
+.information p{
+	font-size: 20px;
+	color: #cbcccc;
+	text-align: center;
+	padding: 0 45px;
+}
+
+
+
+/*==================
+  Feature section css
+  ==================*/
+.feature{
+	width: 100%;
+	float: left;
+	margin: 50px 0;
+	text-align: center;
+}
+
+
+.feature-1{
+	float: left;
+	margin: 0 150px;
+	margin-bottom: 30px; 
+}
+
+
+
+.feature-2{
+	float: left;
+	margin: 0 150px;
+}
+
+
+.feature-3{
+	float: left;
+	margin: 0 150px;
+}
+
+
+.feature h2{
+	text-align: center;
+	color:#2d3950;
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+
+
+.feature p{
+	font-size: 14px;
+	color: #a1a1a1;
+}
+
+
+  /*==================
+   Portfolio section css
+  ==================*/
+.portfolio{
+	width:100%;
+	height: auto;
+	position: relative;
+	background: #f6f9f9;
+	padding: 75px 0;
+	float: left;
+}
+
+
+
+.portfolio h2{
+	margin-top: 50px;
+	text-align: center;
+	font-weight: 600;
+	color: #2d3950;
+}
+
+
+.portfolio p{
+	margin: 30px 0;
+	text-align: center;
+	margin-bottom: 80px;
+	color: #989898;
+}
+
+.portfolio-img{
+	position: relative;
+	width: 360px;
+	height: 260px;
+	margin-bottom: 25px;
+	margin-right: 25px;
+	float: left;
+	transition: 0.3s ease-in-out;
+
+}
+
+.img-hover{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+	background: rgba(44,172,247,0);
+	top:0;
+	left:-99999999999999999px;
+	transition: 0.3s ease-in-out;
+}
+
+.portfolio-img:hover .img-hover{
+	background: rgba(44,172,247,0.8);
+	left:0%;
+}
+.img-hover ul{
+	padding: 0;
+	margin-left: 130px;
+	display: block;
+}
+
+
+.img-hover ul li{
+	list-style: none;
+	display: inline;
+	margin-right: 10px;
+}
+
+
+.img-hover ul li .fa{
+	color:#fff;
+	border: 2px solid #fff;
+	margin: 125px 0px;
+	padding: 10px;
+	border-radius: 2px;
+}
+
+
+  /*==================
+   contact section css
+  ==================*/
+.contact{
+	width: 100%;
+	background: url(../img/contact.png) no-repeat;
+	background-size: cover;
+	background-position: center top;
+	padding: 100px 0;
+	float: left;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.contact h2{
+	font-size: 35px;
+	color:#fff;
+	text-align: center;
+	margin:20px 0;
+}
+
+.contact p{
+	color:#929294;
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 40px;
+	
+}
+
+.con-fullname input{
+	width:500px;
+	background: transparent;
+	border:1px solid #999999;
+	height:50px;
+	font-size:16px;
+	margin-bottom: 15px; 
+}
+
+.con-email input{
+	width:500px;
+	background: transparent;
+	border:1px solid #999999;
+	height:50px;
+	font-size:16px;
+	margin-bottom: 15px; 
+}
+
+.con-message textarea{
+	width:500px;
+	background: transparent;
+	border:1px solid #999999;
+	height:160px;
+	font-size:16px;
+	margin-bottom: 15px; 
+
+}
+.con-check {
+	display: inline;
+	color:white;
+
+}
+.con-check input{
+	margin-right: 10px;
+	background: transparent;
+}
+.con-btn{ 
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+
+
+.con-btn button{
+	margin-top:0;
+	display: inline;
+	background: transparent;
+	margin-left: 200px;
+	border:2px solid #15a4fa;
+	padding: 15px 45px;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 50px;
+
+
+}
+
+.con-btn button:hover{
+	background: #15a4fa;
+}
+
+    /*==================
+  footer section css
+  ==================*/
+
+footer{
+	width: 100%;
+	background: #f6f9f9;
+}
+
+footer p{
+	color:#a0a0a0;
+	padding: 30px 0;
+}
+.social-media{
+	list-style: none;
+	margin:30px 0;
+}
+
+.social-media ul li{
+	list-style: none;
+	margin-left: 300px;
+}
+
+.social-media ul li a{
+	list-style: none;
+	margin: 5px;
+	border:2px solid #15a4fa;
+	background: #15a4fa;
+	color:white;
+	font-size: 18px;
+	padding: 10px 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
